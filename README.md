@@ -1,1 +1,1 @@
-# Object_insertion_in_static_rgb_image
+  # Object Insertion in Static RGB Image
