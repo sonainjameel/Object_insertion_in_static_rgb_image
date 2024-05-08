@@ -55,7 +55,82 @@
         a:hover {
             text-decoration: underline;
         }
-    </style>
+    </style><style>
+    /* Existing styles */
+    body {
+        font-family: Arial, sans-serif;
+        transition: background-color 0.5s ease;
+        color: #333; 
+    }
+    header {
+        background-color: #f0f8ff;
+        padding: 20px;
+        text-align: center;
+    }
+    header h1, header p {
+        margin: 0;
+        padding: 5px;
+        color: #2a4d69;
+    }
+    section {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #eef2f3;
+        transition: transform 0.5s ease;
+    }
+    section:hover {
+        transform: scale(1.02);
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f0f8ff;
+    }
+    h1, h2 {
+        color: #2a4d69;
+    }
+    ul, ol {
+        line-height: 1.6;
+    }
+    a {
+        color: #2a4d69;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+    }
+    a img {
+        height: 20px;
+        margin-right: 5px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* New table styles */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #ffffff; /* White background for the table */
+    }
+    th, td {
+        border: 1px solid #2a4d69; /* Blue borders for consistency */
+        padding: 8px 12px; /* Padding for table cells */
+        text-align: left;
+    }
+    thead {
+        background-color: #2a4d69; /* Dark blue background for the header */
+        color: #ffffff; /* White text for header */
+    }
+    tbody tr:nth-child(odd) {
+        background-color: #f0f8ff; /* Light blue for odd rows */
+    }
+    tbody tr:hover {
+        background-color: #bcd9ea; /* Lighter blue for hover */
+    }
+</style>
+
 </head>
 <body>
     <header>
