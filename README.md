@@ -1,6 +1,12 @@
   # Object Insertion in Static RGB Image
 
+<div align="center">
+🚀 Basic Idea! 🚀
+</div>
 
+<div align="center">
+    <img src="overall.png" width="400" />
+</div>
   ## Related Works
 
 This section outlines key research papers relevant to our work, providing quick access to their strengths, limitations, and resources.
