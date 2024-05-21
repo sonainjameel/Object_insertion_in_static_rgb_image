@@ -92,4 +92,5 @@ This section outlines key research papers relevant to our work, providing quick 
 - **Paper**: [Springer](https://link.springer.com/chapter/10.1007/978-3-031-20068-7_32)
 - **Tested**: ❌
 
-
+## Remarks
+- The current pipeline has been tested for the insertion of the specular sphere and far away from the camera, in the near future, we plan to test this pipeline by varying object material as well as object type.
