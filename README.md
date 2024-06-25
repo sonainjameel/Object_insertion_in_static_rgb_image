@@ -23,7 +23,7 @@ This section outlines key research papers relevant to our work, providing quick 
 ### Depth Anything (CVPR 2024)
 - **Description**: Focuses on data coverage, augmentation, and auxiliary supervision to enhance depth prediction.
 - **Strengths**: Comprehensive approach to data handling.
-- **Limitations**: Relies heavily on data annotations, complex encoder dependencies.
+- **Limitations**: Relies heavily on data annotations, and complex encoder dependencies.
 - **Code**: [GitHub](https://github.com/LiheYoung/Depth-Anything)
 - **Paper**: [PDF](https://arxiv.org/pdf/2401.10891.pdf)
 - **Tested**: ✔️
@@ -46,7 +46,7 @@ This section outlines key research papers relevant to our work, providing quick 
 
 ### $FC^4$ (CVPR 2017)
 - **Description**: Utilizes a fully convolutional network focusing on confidence weighting and adaptive pooling for color constancy.
-- **Strengths**: Effective in handling ambiguity, innovative use of convolutional networks.
+- **Strengths**: Effective in handling ambiguity, and innovative use of convolutional networks.
 - **Limitations**: Learning complexity, high dependency on datasets.
 - **Code**: [GitHub](https://github.com/yuanming-hu/fc4)
 - **Paper**: [PDF](https://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_FC4_Fully_Convolutional_CVPR_2017_paper.pdf)
